@@ -1,0 +1,131 @@
+*{
+    margin:0;
+}
+:root{
+    --primary-color:rgb(25, 7, 94);
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+header{
+    background-color: white;
+    box-shadow: 0px 0px 30px 3px rgb(100, 100, 100);
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+#logoimg{
+    /* background-image: url("img/milkymist.png"); */
+    margin-left: 80px;
+}
+ul{
+    display: flex;
+    position: relative;;
+    left:30px;
+    justify-content: space-around;
+    gap: 2px;
+    
+    
+}
+.listitems{
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buybtn{
+    background-color: rgb(33, 21, 79);
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    border-style: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 80px;
+}
+.listitems:hover{
+    color: blue;
+}
+.buybtn:hover{
+    background-color: blue;
+   
+}
+#video{
+    width: 100%;
+    height: 100%;
+    /* margin-left: 10px; */
+    /* margin-right: -10px; */
+
+
+}
+.templatediv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    top: 110px;
+    margin-left: 150px;
+    /* z-index: 1; */
+    gap: 20px;
+    padding-bottom: 70px;
+
+}
+.contentdiv{
+    position: relative;
+    top: 20px;
+
+   
+}
+h2{
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--primary-color);
+    
+}
+p{
+    margin-top: 20px;
+    width: 500px;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+    letter-spacing: 1px;
+}
+
+.available{
+    margin-top: 22px;
+    font-weight: bold;
+}
+.btns{
+    background-color: rgba(0, 0, 128, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px 10px 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+.imgdiv{
+    width: 400px;
+    height: 400px;
+    margin-right: 100px;
+    /* position: relative; */
+    /* grid-column: span4; */
+   
+}
+.btns:hover{
+    background-color: blue;
+    color: white;
+    border-style: none;
+}
+.main{
+    top: 200px;
+    position: relative;
+}
+ 
